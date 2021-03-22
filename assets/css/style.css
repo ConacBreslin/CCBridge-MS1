@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:ital,wght@0,400;1,500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+/*----------------------Containers---------------------------*/
+.alert-container   {} 
+
+.nav-container  {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/card-table.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.aboutbridge-container {}
+.learnbridge-container {}
+
+.playbridge-container {}
+
+.signup-container {}
+
