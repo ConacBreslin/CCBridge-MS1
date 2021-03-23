@@ -479,18 +479,69 @@
     <hr>
 
     <!-- Sign Up Section-->
-    <div class="container signup-container">
-        <div class="row">
-            <section class="sign-up">
-                <h2>Sign Up Now</h2>
-                <form></form>
+    <section class="sign-up">
+     <div class="container container-signup">
+        <form class="row g-3">
+  <div class="col-md-4">
+    <label for="firstname" class="form-label">First Name</label>
+    <input type="text" class="form-control" id="firstname">
+    <label for="surname" class="form-label">Surname</label>
+    <input type="text" class="form-control" id="surname">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" class="form-control" id="email">
+    
+  </div>
+  <div class="col-md-4">
+    
 
-        </div>
-        <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#ModalforSignUp">Sign
-            Up Now</button>
-        <a>Return to top</a>
+    <div class="form-check">
+  <input class="form-check-input" type="radio" name="classes" id="classes">
+  <label class="form-check-label" for="classes">Classes
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="play" id="play" >
+  <label class="form-check-label" for="play">
+    Play
+  </label>
+</div>
+ <div class="form-check">
+  <input class="form-check-input" type="radio" name="both" id="both">
+  <label class="form-check-label" for="both">
+    Both
+  </label>
+</div>
+
+<select class="form-select" aria-label="Default select example">
+  <option selected>My level is</option>
+  <option value="beginner">Complete Beginner</option>
+  <option value="novice">Novice</option>
+  <option value="intermediate">Intermediate</option>
+  <option value="advanced">Advanced</option>
+</select>
+    
+
+  </div>
+  <div class="col-md-4">
+  
+<div class="mb-3">
+  <label for="anyquestions" class="form-label">Any other questions?</label>
+  <textarea class="form-control" id="anyquestions" rows="7" placeholder="Ask them here."></textarea>
+</div>
+  </div>
+  
+  
+  
+ 
+  <div class="col-12">
+    <button type="submit" class="btn btn-light btn-lg">Sign Up Now</button>
+  </div>
+</form>
+        
+       
 
     </div>
+    </section>
     </section>
 
     <!-- /Sign Up Section-->
