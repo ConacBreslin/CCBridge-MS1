@@ -58,6 +58,8 @@ h1 {
 }
 
 .aboutbridge-container {}
+
+
 .learnbridge-container {}
 
 .playbridge-container {}
@@ -67,16 +69,17 @@ h1 {
 .footer-container {}
 
 /*----------------------Alert banner---------------------------*/
-
-.alert {
-    margin-bottom: 0;
-}
+ .aboutbridge-container {}
 
 
-.alert-link {
-    color: #212529;
-}
+ 
 
+ .alert {margin-bottom: 0;}
+
+ .alert-link {color: #212529;}
+
+/*----------------------Nav Bar---------------------------*/
+.navbar-brand {float: left;}
 
 /*----------------------Special paddings/margins/text---------------------------*/
 
