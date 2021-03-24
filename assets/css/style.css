@@ -93,11 +93,13 @@ h1 {
 /*----------------------Callout section---------------------------*/
 .about-bridge-link {
     color: #c6c5b9;
+    text-decoration: none;
 
 }
 
 .callout-link {color: #c6c5b9;
     text-align: center;
+    text-decoration: none;
 
 }
 
