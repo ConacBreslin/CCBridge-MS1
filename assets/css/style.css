@@ -115,7 +115,13 @@ h1 {
 
 /*----------------------About Bridge---------------------------*/
 
+.about-bridge-text {
+    text-align: justify;
+    height: 200px;
+    text-overflow: auto;
+    
 
+}
 /*----------------------Learn Bridge---------------------------*/
 
 
