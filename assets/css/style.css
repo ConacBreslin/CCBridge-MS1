@@ -32,6 +32,8 @@ h1 {
     color: #c6c5b9;
 }
 
+.lead {color: #c6c5b9;}
+
 /*----------------------Containers---------------------------*/
 .alert-container   {
     background-color: #c6c5b9;
@@ -79,9 +81,26 @@ h1 {
  .alert-link {color: #212529;}
 
 /*----------------------Nav Bar---------------------------*/
-.navbar-brand {float: left;}
+
+.list-inline {margin:0 auto;}
+
+.nav-link {position: right;}
 
 /*----------------------Special paddings/margins/text---------------------------*/
+
+
+
+/*----------------------Callout section---------------------------*/
+.about-bridge-link {
+    color: #c6c5b9;
+
+}
+
+.callout-link {color: #c6c5b9;
+    text-align: center;
+
+}
+
 
 
 
