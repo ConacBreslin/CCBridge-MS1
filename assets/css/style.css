@@ -19,13 +19,31 @@ tealy-blue #62929E
 staely-grey #546A7B
 
 
+/*----------------------headings and margins and padiding---------------------------*/
 
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1 { 
+    font-family: 'Comfortaa', cursive;
+    color: #c6c5b9;
+}
 
 /*----------------------Containers---------------------------*/
 .alert-container   {
+    background-color: #c6c5b9;
+    margin: 0 auto;
+    text-align: center;
+    color: #212529;
+    font-size: larger;
+
    
 } 
+
+
 
 .nav-container  {}
 
@@ -49,6 +67,15 @@ staely-grey #546A7B
 .footer-container {}
 
 /*----------------------Alert banner---------------------------*/
+
+.alert {
+    margin-bottom: 0;
+}
+
+
+.alert-link {
+    color: #212529;
+}
 
 
 /*----------------------Special paddings/margins/text---------------------------*/
