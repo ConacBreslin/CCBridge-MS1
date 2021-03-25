@@ -34,6 +34,11 @@ h1 {
 
 .lead {color: #c6c5b9;}
 
+h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 /*----------------------Containers---------------------------*/
 .alert-container   {
     background-color: #c6c5b9;
@@ -93,26 +98,15 @@ h1 {
 /*----------------------Callout section---------------------------*/
 
 
-.callout-headline {
+.display-1 {
 
-margin-top: 75px;
+margin-top: 50px;
     margin-bottom: 50px;}
 
-
-
-.about-bridge-link {
-    color: #c6c5b9;
+a {
+    color:#c6c5b9;
     text-decoration: none;
-
-}
-
-.callout-link {
-    : #c6c5b9;
-    text-align: center;
-    text-decoration: none;
-
-}
-
+    }
 
 
 
